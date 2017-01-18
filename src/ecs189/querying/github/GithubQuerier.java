@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class GithubQuerier {
 
-    private static final String token =  "ae1a1eff30609e418bbdc6f04d2c9fa220080cdd";
+    private static final String token =  "";
     private JSONArray pullArray;
     private String account, name;
 
