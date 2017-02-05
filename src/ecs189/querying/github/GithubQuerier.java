@@ -51,8 +51,7 @@ public class GithubQuerier {
     }
     private JSONArray getPullArray(String account, String name, String username) throws IOException {
         String baseURL = "https://api.github.com/repos/";
-        //https://api.github.com/repos/ReactiveX/RxJava/pulls?state=closed&per_page=10000&merge=all&access_token=ae1a1eff30609e418bbdc6f04d2c9fa220080cdd
-        //https://api.github.com/search/issues?q=is:pr+is:merged+repo:GumTreeDiff/gumtree+author:caiusb&access_token=ae1a1eff30609e418bbdc6f04d2c9fa220080cdd
+  
         String pull = "/pulls?state=closed&per_page=10000&merge=all&access_token=";
         String pullURL = baseURL + account + "/" + name + pull + token;
         URL pageURL = new URL(pullURL);
