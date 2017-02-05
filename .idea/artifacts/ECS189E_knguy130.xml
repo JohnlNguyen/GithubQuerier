@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="ECS189E:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/ECS189E_jar</output-path>
-    <root id="archive" name="ECS189E.jar">
+  <artifact type="jar" name="ECS189E-knguy130">
+    <output-path>$PROJECT_DIR$/out/artifacts/ECS189E_knguy130</output-path>
+    <root id="archive" name="ECS189E-knguy130.jar">
       <element id="module-output" name="ECS189E" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/json-20160810.jar" path-in-jar="/" />
     </root>
